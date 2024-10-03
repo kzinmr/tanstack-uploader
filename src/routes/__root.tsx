@@ -19,22 +19,6 @@ function RootComponent() {
         >
           Home
         </Link>{' '}
-        <Link
-          to="/about"
-          activeProps={{
-            className: 'font-bold',
-          }}
-        >
-          About
-        </Link>
-        <Link
-          to="/uploader"
-          activeProps={{
-            className: 'font-bold',
-          }}
-        >
-          Upload
-        </Link>
       </div>
       <hr />
       <Outlet />
